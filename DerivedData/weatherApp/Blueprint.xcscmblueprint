@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "95B935951E10BA01AC5ECE14C8829B6F2FD55979",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "95B935951E10BA01AC5ECE14C8829B6F2FD55979" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "753BC46B-B115-4732-BE1E-31B93C380EF0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "95B935951E10BA01AC5ECE14C8829B6F2FD55979" : "weatherApp\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "weatherApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "weatherApp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kilik42\/weather-app-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "95B935951E10BA01AC5ECE14C8829B6F2FD55979"
+    }
+  ]
+}

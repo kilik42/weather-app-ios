@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
   
+    @IBOutlet weak var editBarButton: UIBarButtonItem!
+    @IBOutlet weak var addBarButton: UIBarButtonItem!
     
 
     @IBOutlet weak var tableView: UITableView!
@@ -45,5 +47,24 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return cell
       }
 
+    @IBAction func editButtonPressed(_ sender: UIBarButtonItem) {
+        
+        if tableView.isEditing{
+            tableView.setEditing(false, animated: true)
+            sender.title = "Edit"
+            addBarButton.isEnabled = true
+        }else{
+            tableView.setEditing(true, animated: true)
+            sender.title = "Done"
+            addBarButton.isEnabled = false
+        }
+        
+    }
+    
+    
+    @IBAction func addButtonPressed(_ sender: Any) {
+        
+        
+    }
 }
 

@@ -1,11 +1,24 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
+- "WeatherLocation"
 provides-nominal:
+- "10weatherApp15WeatherLocationV"
 provides-member:
+- ["10weatherApp15WeatherLocationV", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "Double"
+- "String"
+- "WeatherLocation"
 depends-member:
+- ["10weatherApp15WeatherLocationV", "Double"]
+- ["10weatherApp15WeatherLocationV", "String"]
+- ["10weatherApp15WeatherLocationV", "init"]
+- ["10weatherApp15WeatherLocationV", "latitude"]
+- ["10weatherApp15WeatherLocationV", "longitude"]
+- ["10weatherApp15WeatherLocationV", "name"]
 depends-nominal:
+- "10weatherApp15WeatherLocationV"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
@@ -34,4 +47,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "5bf39d8b5f0094ca83c744a0da4fb204"
+interface-hash: "a8bb9c0ff9c9203ac845726676b2dd1d"

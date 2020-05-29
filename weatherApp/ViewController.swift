@@ -46,6 +46,22 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         cell.textLabel?.text = weatherLocations[indexPath.row].name
         return cell
       }
+    
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete{
+            weatherLocations.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: .fade)
+            
+        }
+    }
+    
+    
+    func tableView(_ tableView: UITableView, moveRowAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
+        let itemToMove = weatherLocations[sourceIndexPath.row]
+        weatherLocations.remove(at: sourceIndexPath.row)
+       weatherLocations.insert(itemToMove, at: destinationIndexPath.row)
+        
+    }
 
     @IBAction func editButtonPressed(_ sender: UIBarButtonItem) {
         

@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "9d40399ac24308d41bd3faa7ed9dcfc2"
+build_time: [1590723498, 794749000]
+inputs:
+  "/Users/marvinevins/Library/Autosave Information/weatherApp/weatherApp/ViewController.swift": [1590723493, 29442015]
+  "/Users/marvinevins/Library/Autosave Information/weatherApp/weatherApp/AppDelegate.swift": [1590723493, 18704980]
+  "/Users/marvinevins/Library/Autosave Information/weatherApp/weatherApp/SceneDelegate.swift": [1590723493, 27705159]
